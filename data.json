@@ -16,7 +16,7 @@
       "email": "jj020305@gmail.com",
       "mobile": ""
     },
-    "affiliation": { "ko": "삼육대학교 컴퓨터공학과 소프트웨어공학부", "en": "Sahmyook University, Dept. of Computer Engineering (Software Engineering)" },
+    "affiliation": { "ko": "", "en": "" },
     "social": [
       { "label": "GitHub", "url": "https://github.com/hyun9758" },
       { "label": "Velog", "url": "https://velog.io/@hyun9758" }
@@ -28,7 +28,7 @@
   },
   "education": [
     {
-      "school": { "ko": "삼육대학교", "en": "Sahmyook University" },
+      "school": { "ko": "국내 4년제 대학교", "en": "A university in South Korea" },
       "major": { "ko": "컴퓨터공학과 소프트웨어공학부", "en": "Dept. of Computer Engineering, Software Engineering" },
       "degree": { "ko": "학사", "en": "B.S." },
       "period": "2020 - 2026",
@@ -52,7 +52,7 @@
   "experience": [
     {
       "period": "2025.12 - 2026.02",
-      "org": { "ko": "㈜모디엠", "en": "Modiem Inc." },
+      "org": { "ko": "소프트웨어 개발 회사", "en": "A software development company" },
       "description": { "ko": "내비게이션 SW 개발 QA", "en": "QA for navigation software development" }
     }
   ],

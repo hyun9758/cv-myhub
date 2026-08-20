@@ -51,6 +51,10 @@
     if (v == null) return true;
     if (typeof v === 'string') return v.trim() === '';
     if (Array.isArray(v)) return v.length === 0;
+    // { ko, en } 형태의 다국어 텍스트 객체는 두 언어 값이 전부 비어있어야 빈 값으로 취급한다.
+    if (typeof v === 'object' && ('ko' in v || 'en' in v)) {
+      return isEmpty(v.ko) && isEmpty(v.en);
+    }
     return false;
   }
 

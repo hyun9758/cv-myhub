@@ -63,7 +63,8 @@
       "period": "2025.03 - 2025.11 (8개월)",
       "role": { "ko": "프론트엔드 & 백엔드 · 깃 마스터", "en": "Front-End & Back-End · Git Master" },
       "name": "Q-Checker",
-      "description": { "ko": "QR 코드 및 NFC 태그 기술을 활용한 QR 출석 관리 모바일 애플리케이션. PR/코드 리뷰, 전체 레이아웃, 인증 및 유저 스토어 상태관리 담당", "en": "Android attendance management app using QR codes and NFC tags. Led PRs/code review, overall layout, and auth/user-store state management" }
+      "description": { "ko": "QR 코드 및 NFC 태그 기술을 활용한 QR 출석 관리 모바일 애플리케이션. PR/코드 리뷰, 전체 레이아웃, 인증 및 유저 스토어 상태관리 담당", "en": "Android attendance management app using QR codes and NFC tags. Led PRs/code review, overall layout, and auth/user-store state management" },
+      "links": [{ "label": "GitHub", "url": "https://github.com/Capstone-project-syu/q-checker" }]
     },
     {
       "category": { "ko": "개인 프로젝트", "en": "Personal Project" },
@@ -71,7 +72,11 @@
       "period": "2025.03 - 2025.11 (8개월)",
       "role": { "ko": "1인 풀스택 개발", "en": "Solo Full-Stack Development" },
       "name": "KAGE",
-      "description": { "ko": "캐릭터를 생성하고 유저끼리 대화하는 캐릭터 대화 서비스. 기획부터 프론트엔드/백엔드/DB/배포까지 단독 수행", "en": "A character-creation and role-play chat service. Solely handled planning, front-end, back-end, database, and deployment" }
+      "description": { "ko": "캐릭터를 생성하고 유저끼리 대화하는 캐릭터 대화 서비스. 기획부터 프론트엔드/백엔드/DB/배포까지 단독 수행", "en": "A character-creation and role-play chat service. Solely handled planning, front-end, back-end, database, and deployment" },
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/hyun9758/Kage" },
+        { "label": "Live", "url": "https://kage-seven.vercel.app/" }
+      ]
     },
     {
       "category": { "ko": "팀 프로젝트", "en": "Team Project" },
@@ -79,7 +84,8 @@
       "period": "2025.09 - 2025.11 (2개월)",
       "role": { "ko": "프론트엔드 & 백엔드 · 깃 마스터", "en": "Front-End & Back-End · Git Master" },
       "name": "UnPlug",
-      "description": { "ko": "도파민 디톡스를 돕는 모바일 애플리케이션. 모임/마이페이지 기능 및 인증 연동 담당", "en": "A mobile app supporting dopamine detox. Led the group/mypage feature and auth integration" }
+      "description": { "ko": "도파민 디톡스를 돕는 모바일 애플리케이션. 모임/마이페이지 기능 및 인증 연동 담당", "en": "A mobile app supporting dopamine detox. Led the group/mypage feature and auth integration" },
+      "links": [{ "label": "GitHub", "url": "https://github.com/BridgeON-Team/unplug" }]
     },
     {
       "category": { "ko": "팀 프로젝트", "en": "Team Project" },
@@ -87,7 +93,8 @@
       "period": "2025.02 - 2025.03 (1개월)",
       "role": { "ko": "프론트엔드 & 백엔드 · 팀장", "en": "Front-End & Back-End · Team Lead" },
       "name": "FUNGLE",
-      "description": { "ko": "웹소설 주간 연재 및 도서 펀딩 커뮤니티 웹앱. 회원 관리(로그인/회원가입), 펀딩 페이지 개발, 서비스 기획 총괄", "en": "A web-novel serialization and book-funding community web app. Led member management (auth), the funding page, and service planning" }
+      "description": { "ko": "웹소설 주간 연재 및 도서 펀딩 커뮤니티 웹앱. 회원 관리(로그인/회원가입), 펀딩 페이지 개발, 서비스 기획 총괄", "en": "A web-novel serialization and book-funding community web app. Led member management (auth), the funding page, and service planning" },
+      "links": [{ "label": "GitHub", "url": "https://github.com/FRONT-END-BOOTCAMP-PLUS-3/fungle" }]
     },
     {
       "category": { "ko": "팀 프로젝트", "en": "Team Project" },
@@ -95,7 +102,8 @@
       "period": "2025.01 - 2025.02",
       "role": { "ko": "프론트엔드", "en": "Front-End" },
       "name": { "ko": "아매워클럽", "en": "A-maewoClub" },
-      "description": { "ko": "멋쟁이사자처럼 플러스 부트캠프 팀 프로젝트", "en": "Team project from the Likelion Plus bootcamp" }
+      "description": { "ko": "멋쟁이사자처럼 플러스 부트캠프 팀 프로젝트", "en": "Team project from the Likelion Plus bootcamp" },
+      "links": [{ "label": "GitHub", "url": "https://github.com/FRONT-END-BOOTCAMP-PLUS-3/A-maewoClub" }]
     },
     {
       "category": { "ko": "팀 프로젝트", "en": "Team Project" },
@@ -103,7 +111,11 @@
       "period": "2024.02 - 2024.03",
       "role": { "ko": "프론트엔드", "en": "Front-End" },
       "name": "DOSIRAK",
-      "description": { "ko": "멋쟁이사자처럼 프론트엔드 스쿨 팀 프로젝트", "en": "Team project from the Likelion Front-End School" }
+      "description": { "ko": "멋쟁이사자처럼 프론트엔드 스쿨 팀 프로젝트", "en": "Team project from the Likelion Front-End School" },
+      "links": [
+        { "label": "GitHub", "url": "https://github.com/FRONTENDSCHOOL8/dosirak" },
+        { "label": "Live", "url": "https://hankki.netlify.app/" }
+      ]
     }
   ],
   "publications": [],

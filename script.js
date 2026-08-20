@@ -186,9 +186,23 @@
       right.appendChild(el('div', { className: 'entry-title', text: t(proj.name) }));
       right.appendChild(el('div', { className: 'entry-sub', text: t(proj.role) }));
       if (!isEmpty(proj.description)) right.appendChild(el('div', { className: 'entry-desc', text: t(proj.description) }));
+      if (!isEmpty(proj.links)) right.appendChild(renderLinkButtons(proj.links));
       entry.appendChild(right);
       root.appendChild(entry);
     });
+  }
+
+  function renderLinkButtons(links) {
+    var wrap = el('div', { className: 'entry-links' });
+    links.forEach(function (link) {
+      var a = document.createElement('a');
+      a.href = link.url;
+      a.textContent = '🔗 ' + link.label;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      wrap.appendChild(a);
+    });
+    return wrap;
   }
 
   function renderPublications() {
@@ -202,6 +216,7 @@
       var right = el('div');
       right.appendChild(el('div', { className: 'entry-title', text: t(pub.title) }));
       if (!isEmpty(pub.description)) right.appendChild(el('div', { className: 'entry-desc', text: t(pub.description) }));
+      if (!isEmpty(pub.url)) right.appendChild(renderLinkButtons([{ label: lang === 'ko' ? '원문 보기' : 'View', url: pub.url }]));
       entry.appendChild(right);
       root.appendChild(entry);
     });
@@ -295,6 +310,14 @@
 
   document.getElementById('navLinks').addEventListener('click', function (e) {
     if (e.target.tagName === 'A') document.getElementById('navLinks').classList.remove('open');
+  });
+
+  document.addEventListener('click', function (e) {
+    var navLinks = document.getElementById('navLinks');
+    var hamburger = document.getElementById('hamburgerBtn');
+    if (!navLinks.classList.contains('open')) return;
+    if (navLinks.contains(e.target) || hamburger.contains(e.target)) return;
+    navLinks.classList.remove('open');
   });
 
   /* ---------------- INIT ---------------- */

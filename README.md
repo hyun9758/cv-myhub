@@ -32,8 +32,8 @@ python -m http.server 8000
 | `intro` | `{ ko, en }` | 한 문단 자기소개 |
 | `education[]` | `school`, `major`, `degree`, `period`, `gpa` | 학력: 학교명, 학과, 학위, 기간, 평점(선택) |
 | `experience[]` | `period`, `org`, `description` | 경력: 기간, 기관, 내용 |
-| `projects[]` | `category`, `year`, `period`, `role`, `name`, `description` | 프로젝트: 구분(팀/개인), 연도, 기간, 역할, 프로젝트명, 설명 |
-| `publications[]` | `year`, `title`, `description` | 논문 및 특허 (없으면 빈 배열 `[]` → 섹션 자동 숨김) |
+| `projects[]` | `category`, `year`, `period`, `role`, `name`, `description`, `links[]` | 프로젝트: 구분(팀/개인), 연도, 기간, 역할, 프로젝트명, 설명, 참조 링크(GitHub 등) |
+| `publications[]` | `year`, `title`, `description`, `url` | 논문 및 특허 (없으면 빈 배열 `[]` → 섹션 자동 숨김), `url` 입력 시 링크 버튼 노출 |
 | `awards[]` | `year`, `name` | 수상 내역 |
 | `skills[]` | `category`, `items[]` | 기술/언어 스킬 그룹 |
 
@@ -52,3 +52,19 @@ python -m http.server 8000
 ## 배포
 
 GitHub Pages를 통해 배포됩니다. `main` 브랜치 루트(`/`)를 소스로 사용합니다.
+
+- Live: https://hyun9758.github.io/cv-myhub/
+
+## 문서
+
+- [PRD](docs/myhub_prd_v1.md)
+- [데이터 스키마 정의서](docs/myhub_data_schema_def_v1.md)
+- [페이지 로드 시퀀스 다이어그램](docs/diagrams/myhub_dataload_sequence_diagram_v1.md)
+- [이번 실습에서 만들어진 빚(Debt)](docs/myhub_debt_and_limitations_v1.md)
+
+## 변경 이력
+
+| 날짜 | 버전 | 변경 내용 |
+|---|---|---|
+| 2026-08-20 | v1.0 | 최초 구현: 정적 CV 사이트(프로필/소개/학력/경력/프로젝트/논문/수상/스킬), 한/영 전환, 다크모드, 반응형, GitHub Pages 배포 |
+| 2026-08-20 | v1.1 | Open Graph 메타 태그 추가, 프로젝트·논문 항목에 외부 URL 링크 버튼(`links[]`) 추가, 모바일 메뉴 바깥 클릭 시 닫힘 결함 수정, 포커스 접근성 개선 |

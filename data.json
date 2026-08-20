@@ -51,6 +51,11 @@
   ],
   "experience": [
     {
+      "period": "2026.04 - 2026.06",
+      "org": { "ko": "소프트웨어 개발 회사", "en": "A software development company" },
+      "description": { "ko": "소프트웨어 어플리케이션 개발 인턴", "en": "Software Application Development Intern" }
+    },
+    {
       "period": "2025.12 - 2026.02",
       "org": { "ko": "소프트웨어 개발 회사", "en": "A software development company" },
       "description": { "ko": "내비게이션 SW 개발 QA", "en": "QA for navigation software development" }

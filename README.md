@@ -1,5 +1,7 @@
 # MyHub — 정현수 CV
 
+**🔗 Live: https://hyun9758.github.io/cv-myhub/**
+
 정적 HTML/CSS/JS 기반 개인 이력서(CV) 웹 애플리케이션입니다. 프레임워크·빌드 도구 없이 순수 HTML + CSS + Vanilla JS로만 구성되어 있으며, `data.json` 파일만 수정하면 이력서 내용을 갱신할 수 있습니다.
 
 ## 실행 방법

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <circle cx="100" cy="100" r="100" fill="#3B5BDB"/>
+  <text x="50%" y="52%" text-anchor="middle" dominant-baseline="middle"
+        font-family="'Noto Sans KR', Arial, sans-serif" font-weight="700"
+        font-size="76" fill="#ffffff">HJ</text>
+</svg>

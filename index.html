@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>정현수 CV</title>
+<link rel="icon" type="image/svg+xml" href="res/my_profile.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <button class="nav-hamburger" id="hamburgerBtn" aria-label="menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-title" id="navTitle">MyHub</div>
+  <nav class="nav-links" id="navLinks">
+    <a href="#profile" data-i18n-key="nav.profile">프로필</a>
+    <a href="#intro" data-i18n-key="nav.intro">소개</a>
+    <a href="#education" data-i18n-key="nav.education">학력</a>
+    <a href="#experience" data-i18n-key="nav.experience">경력</a>
+    <a href="#projects" data-i18n-key="nav.projects">프로젝트</a>
+    <a href="#awards" data-i18n-key="nav.awards">수상</a>
+    <a href="#skills" data-i18n-key="nav.skills">스킬</a>
+  </nav>
+  <div class="nav-controls">
+    <button id="langToggle" class="icon-btn" aria-label="language toggle">EN</button>
+    <button id="themeToggle" class="icon-btn" aria-label="dark mode toggle">
+      <svg id="themeIconMoon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg id="themeIconSun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+    </button>
+    <button id="printBtn" class="icon-btn" aria-label="print">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+    </button>
+  </div>
+</header>
+
+<main>
+  <section class="profile-panel" id="profile"></section>
+  <section class="content-panel" id="content">
+    <section class="cv-section" id="intro"></section>
+    <section class="cv-section" id="education"></section>
+    <section class="cv-section" id="experience"></section>
+    <section class="cv-section" id="projects"></section>
+    <section class="cv-section" id="publications"></section>
+    <section class="cv-section" id="awards"></section>
+    <section class="cv-section" id="skills"></section>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

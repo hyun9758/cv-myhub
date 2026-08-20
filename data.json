@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "nameKo": "정현수",
+    "nameEn": "Hyunsoo Jung",
+    "roleBadges": [
+      { "ko": "프론트엔드 개발자", "en": "Front-End Developer" },
+      { "ko": "풀스택 개발자", "en": "Full-Stack Developer" }
+    ]
+  },
+  "profile": {
+    "photo": "res/my_profile.svg",
+    "birthDate": "2002-03-05",
+    "militaryStatus": "",
+    "address": "",
+    "contact": {
+      "email": "jj020305@gmail.com",
+      "mobile": ""
+    },
+    "affiliation": { "ko": "삼육대학교 컴퓨터공학과 소프트웨어공학부", "en": "Sahmyook University, Dept. of Computer Engineering (Software Engineering)" },
+    "social": [
+      { "label": "GitHub", "url": "https://github.com/hyun9758" },
+      { "label": "Velog", "url": "https://velog.io/@hyun9758" }
+    ]
+  },
+  "intro": {
+    "ko": "React·Next.js·React Native를 기반으로 프론트엔드부터 백엔드, 모바일까지 아우르는 풀스택 웹/앱 개발 경험을 쌓아온 개발자입니다. 4건의 팀 프로젝트에서 깃 마스터 및 인증/상태관리 담당으로 협업했고, 1인 개발로 캐릭터 대화 서비스를 기획부터 배포까지 완주한 경험이 있습니다. QA 직무 경험을 바탕으로 품질과 사용자 경험을 함께 고려하는 개발을 지향합니다.",
+    "en": "A full-stack developer experienced across front-end, back-end, and mobile with React, Next.js, and React Native. Collaborated as Git master and led auth/state-management work across four team projects, and independently planned, built, and shipped a character chat service end to end. Brings a QA background that keeps quality and user experience in balance."
+  },
+  "education": [
+    {
+      "school": { "ko": "삼육대학교", "en": "Sahmyook University" },
+      "major": { "ko": "컴퓨터공학과 소프트웨어공학부", "en": "Dept. of Computer Engineering, Software Engineering" },
+      "degree": { "ko": "학사", "en": "B.S." },
+      "period": "2020 - 2026",
+      "gpa": ""
+    },
+    {
+      "school": { "ko": "멋쟁이사자처럼 프론트엔드 스쿨 8기", "en": "Likelion Front-End School (8th)" },
+      "major": { "ko": "프론트엔드 부트캠프", "en": "Front-End Bootcamp" },
+      "degree": { "ko": "수료", "en": "Completed" },
+      "period": "2023.10 - 2024.03",
+      "gpa": ""
+    },
+    {
+      "school": { "ko": "멋쟁이사자처럼 플러스 프론트엔드 3기", "en": "Likelion Plus Front-End (3rd)" },
+      "major": { "ko": "프론트엔드 심화 과정", "en": "Advanced Front-End Program" },
+      "degree": { "ko": "수료", "en": "Completed" },
+      "period": "2025.01 - 2025.03",
+      "gpa": ""
+    }
+  ],
+  "experience": [
+    {
+      "period": "2025.12 - 2026.02",
+      "org": { "ko": "㈜모디엠", "en": "Modiem Inc." },
+      "description": { "ko": "내비게이션 SW 개발 QA", "en": "QA for navigation software development" }
+    }
+  ],
+  "projects": [
+    {
+      "category": { "ko": "팀 프로젝트", "en": "Team Project" },
+      "year": "2025",
+      "period": "2025.03 - 2025.11 (8개월)",
+      "role": { "ko": "프론트엔드 & 백엔드 · 깃 마스터", "en": "Front-End & Back-End · Git Master" },
+      "name": "Q-Checker",
+      "description": { "ko": "QR 코드 및 NFC 태그 기술을 활용한 QR 출석 관리 모바일 애플리케이션. PR/코드 리뷰, 전체 레이아웃, 인증 및 유저 스토어 상태관리 담당", "en": "Android attendance management app using QR codes and NFC tags. Led PRs/code review, overall layout, and auth/user-store state management" }
+    },
+    {
+      "category": { "ko": "개인 프로젝트", "en": "Personal Project" },
+      "year": "2025",
+      "period": "2025.03 - 2025.11 (8개월)",
+      "role": { "ko": "1인 풀스택 개발", "en": "Solo Full-Stack Development" },
+      "name": "KAGE",
+      "description": { "ko": "캐릭터를 생성하고 유저끼리 대화하는 캐릭터 대화 서비스. 기획부터 프론트엔드/백엔드/DB/배포까지 단독 수행", "en": "A character-creation and role-play chat service. Solely handled planning, front-end, back-end, database, and deployment" }
+    },
+    {
+      "category": { "ko": "팀 프로젝트", "en": "Team Project" },
+      "year": "2025",
+      "period": "2025.09 - 2025.11 (2개월)",
+      "role": { "ko": "프론트엔드 & 백엔드 · 깃 마스터", "en": "Front-End & Back-End · Git Master" },
+      "name": "UnPlug",
+      "description": { "ko": "도파민 디톡스를 돕는 모바일 애플리케이션. 모임/마이페이지 기능 및 인증 연동 담당", "en": "A mobile app supporting dopamine detox. Led the group/mypage feature and auth integration" }
+    },
+    {
+      "category": { "ko": "팀 프로젝트", "en": "Team Project" },
+      "year": "2025",
+      "period": "2025.02 - 2025.03 (1개월)",
+      "role": { "ko": "프론트엔드 & 백엔드 · 팀장", "en": "Front-End & Back-End · Team Lead" },
+      "name": "FUNGLE",
+      "description": { "ko": "웹소설 주간 연재 및 도서 펀딩 커뮤니티 웹앱. 회원 관리(로그인/회원가입), 펀딩 페이지 개발, 서비스 기획 총괄", "en": "A web-novel serialization and book-funding community web app. Led member management (auth), the funding page, and service planning" }
+    },
+    {
+      "category": { "ko": "팀 프로젝트", "en": "Team Project" },
+      "year": "2025",
+      "period": "2025.01 - 2025.02",
+      "role": { "ko": "프론트엔드", "en": "Front-End" },
+      "name": { "ko": "아매워클럽", "en": "A-maewoClub" },
+      "description": { "ko": "멋쟁이사자처럼 플러스 부트캠프 팀 프로젝트", "en": "Team project from the Likelion Plus bootcamp" }
+    },
+    {
+      "category": { "ko": "팀 프로젝트", "en": "Team Project" },
+      "year": "2024",
+      "period": "2024.02 - 2024.03",
+      "role": { "ko": "프론트엔드", "en": "Front-End" },
+      "name": "DOSIRAK",
+      "description": { "ko": "멋쟁이사자처럼 프론트엔드 스쿨 팀 프로젝트", "en": "Team project from the Likelion Front-End School" }
+    }
+  ],
+  "publications": [],
+  "awards": [
+    {
+      "year": "2025",
+      "name": { "ko": "교내 산학협력캡스톤 우수상", "en": "University Industry-Academic Capstone Excellence Award" }
+    }
+  ],
+  "skills": [
+    {
+      "category": { "ko": "Front-End", "en": "Front-End" },
+      "items": ["HTML5", "JavaScript", "TypeScript", "React", "CSS3", "Styled-Components", "TailwindCSS"]
+    },
+    {
+      "category": { "ko": "Back-End", "en": "Back-End" },
+      "items": ["Next.js (API Routes, Server Actions)", "Spring", "JWT"]
+    },
+    {
+      "category": { "ko": "Mobile", "en": "Mobile" },
+      "items": ["React Native", "Expo"]
+    },
+    {
+      "category": { "ko": "DB / ORM", "en": "DB / ORM" },
+      "items": ["PostgreSQL", "MySQL", "Supabase", "Prisma"]
+    },
+    {
+      "category": { "ko": "Server / Infra", "en": "Server / Infra" },
+      "items": ["AWS", "Docker", "Node.js"]
+    },
+    {
+      "category": { "ko": "Tools", "en": "Tools" },
+      "items": ["Git", "GitHub", "Notion", "Figma", "Postman", "Swagger", "VS Code"]
+    },
+    {
+      "category": { "ko": "AI Tools", "en": "AI Tools" },
+      "items": ["Claude", "Cursor", "ChatGPT"]
+    },
+    {
+      "category": { "ko": "언어", "en": "Languages" },
+      "items": [
+        { "ko": "한국어 (모국어)", "en": "Korean (Native)" },
+        { "ko": "영어 (업무 가능)", "en": "English (Working Proficiency)" }
+      ]
+    }
+  ]
+}
